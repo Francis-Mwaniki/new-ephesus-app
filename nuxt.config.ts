@@ -22,7 +22,7 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "@pinia/nuxt",
   ],
-  loading: "~/components/loadingBar.vue",
+
   loadingIndicator: {
     name: "circle",
     color: "#3B8070",
