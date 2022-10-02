@@ -1,11 +1,7 @@
 {
   // https://v3.nuxtjs.org/concepts/typescript
   "extends": "./.nuxt/tsconfig.json",
-  "compilerOptions": {
-    "noImplicitAny": false
-  },
-  "typeRoots": ["../node_modules/@types", "../@types"],
   "include": [
-    "decs.d.ts" // this
+    ".d.ts" // this
   ]
 }
