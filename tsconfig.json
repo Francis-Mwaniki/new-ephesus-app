@@ -4,6 +4,7 @@
   "compilerOptions": {
     "noImplicitAny": false
   },
+  "typeRoots": ["../node_modules/@types", "../@types"],
   "include": [
     "decs.d.ts" // this
   ]
