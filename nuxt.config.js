@@ -43,10 +43,6 @@ export default defineNuxtConfig({
   },
   //transpile a few modules
   build: {
-    transpile: [
-      "@headlessui/vue",
-      "vue-toastification",
-      "@headlessui/tailwindcss",
-    ],
+    transpile: ["vue-toastification"],
   },
 });
